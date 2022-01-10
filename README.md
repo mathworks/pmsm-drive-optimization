@@ -11,25 +11,31 @@ The Electric Drive is implemented using:
 
 ### **Drive System**
 The drive is parameterized for a 70 kW (maximum power), 150 Nm (maximum torque) motor, suitable for an electric vehicle powertrain. The supply is a 500 V DC source.
+
 ![](overview/html/pmsm_foc_drive_optimization_01.png)
 
 ### **Field-Oriented Controller Architecture**
 The PMSM Field-Oriented Controller subsystem has an outer loop of speed control, and an inner loop of current control. The outer loop determines the current references for the inner loop.
+
 ![](overview/html/pmsm_foc_drive_optimization_03.png)
 
 ### **Motor Loss Map**
 The motor losses depend on d-axis and q-axis currents, and rotor speed. Motor losses are a combination of copper losses and iron losses.
+
 ![](overview/html/pmsm_foc_drive_optimization_08.png)
 
 ### **Optimal Field Currents**
 The *ControllerOptimization.mlx* Live Script computes the optimal d-axis and q-axis current references that minimize motor losses, in function of rotor speed and reference torque.
+
 ![](overview/html/pmsm_foc_drive_optimization_10.png)
 
 ### **Optimization Validation**
+
 ![](overview/html/pmsm_foc_drive_optimization_11.png)
 
 ### **Power Losses for Step Load**
 The test scenario is a reference speed of 3000 rpm and a torque load stepped from 0 Nm to 50 Nm at t=0.1s.
+
 ![](overview/html/pmsm_foc_drive_optimization_15.png)
 
 You can notice the lower motor losses when using optimized control parameters.
