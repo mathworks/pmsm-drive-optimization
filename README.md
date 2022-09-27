@@ -45,7 +45,7 @@ Open the project file *PmsmDriveOptimization.prj* to get started.
 - Run *workflows/ControllerOptimization.mlx* to compute the optimal control parameters.
 - Run *workflows/FreqResponseAnalysis.mlx* to check the control system stability margins. This is computationally intensive.
 
-### MathWorks Products (http://www.mathworks.com)
+### MathWorks Products (https://www.mathworks.com)
 Requires MATLAB® release R2021b or newer.
 - [Simscape](https://www.mathworks.com/products/simscape.html)
 - [Simscape Electrical](https://www.mathworks.com/products/simscape-electrical.html)
