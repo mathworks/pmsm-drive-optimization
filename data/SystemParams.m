@@ -1,7 +1,7 @@
 %% Parameters for models/pmsm_foc_drive
 % Script to generate model parameters for pmsm_foc_drive
 
-% Copyright 2022 The MathWorks, Inc.
+% Copyright 2022-2023 The MathWorks, Inc.
 
 %% Parameters
 % PMSM parameters
