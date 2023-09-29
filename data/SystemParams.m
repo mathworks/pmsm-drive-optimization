@@ -55,7 +55,9 @@ ControllerParams.InnerLoop.IntegGain_iQ = 100;
 ControllerParams.InnerLoop.AntiWindupIntegGain_iQ = 465;
 
 % Inverter parameters
-InverterParams = getInverterParams('igbt_Infineon_FS200R07A1E3_params.mat', ControllerParams.InverterSwitchingFrequency);
+InverterParams = getInverterParams('igbt_Infineon_FS200R07A1E3_params.mat', ...
+    ControllerParams.InverterSwitchingFrequency, ...
+    PowSupplyParams.DCVoltage_V);
 
 %% Input Signals
 TestScenarioParams.RotorSpeedRef_rpm = 3000; % [rpm] % Reference to track
