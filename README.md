@@ -1,5 +1,7 @@
 # **Motor Efficiency Improvements With Optimized Control Parameters**
 
+[![View Motor Efficiency Improvements With Tuned Control Parameters on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/104840-motor-efficiency-improvements-with-tuned-control-parameters) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/pmsm-drive-optimization)
+
 ## Overview
 PMSM drive using imported FEM data and optimized Field-Oriented Control (FOC), with supporting design scripts that:
 1.	Determine open-loop frequency response and check stability margins. This requires Simulink® Control Design™, using the Frequency Response Estimator block.
