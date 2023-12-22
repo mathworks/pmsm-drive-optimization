@@ -8,7 +8,7 @@ PMSM drive using imported FEM data and optimized Field-Oriented Control (FOC), w
 2.	Determine the optimal d-axis and q-axis currents that minimize overall motor losses when delivering a commanded torque and speed.
 
 The Electric Drive is implemented using:
-1.	A detailed Simscape™ Electrical™ nonlinear motor model in the form of tabulated flux linkages and Steinmetz coefficients. For more information, see [this example](https://www.mathworks.com/help/physmod/sps/ug/import-ipmsm-flux-linkage-data-from-motor-cad.html). 
+1.	A detailed Simscape™ Electrical™ nonlinear motor model in the form of tabulated flux linkages and Steinmetz coefficients. For more information, see [this example](https://www.mathworks.com/help/sps/ug/import-ipmsm-flux-linkage-data-from-motor-cad.html). 
 2.	A Field-Oriented Controller (FOC) that has been optimized to minimize motor losses.
 
 ### **Drive System**
